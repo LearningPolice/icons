@@ -1,0 +1,102 @@
+<html lang="he" dir="rtl">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <style>
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        
+        input {
+            margin-right: 30%;
+            width: 40%;
+            height: 7%;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> מאגר אייקונים מדור למידה דיגיטלית</h1>
+    <input type="text" id="myinput" name="search" placeholder="חפשו את האייקון המתאים "><br>
+    <div id="images">
+        <a href="symbols\acham.png" download>
+            <img src="symbols\acham.png" alt="  אגף חקירות ומודיעין אחמ" width=130>
+        </a>
+        <a href="symbols\agam-black.png" download>
+            <img src="symbols\agam-black.png" alt="  אגף מבצעים שחור אגמ" width=130>
+        </a>
+        <a href="symbols\agam-blue.png" download>
+            <img src="symbols\agam-blue.png" alt="  אגף מבצעים  אגמ כחול " width=130>
+        </a>
+        <a href="symbols\agat.png" download>
+            <img src="symbols\agat.png" alt="  אגף תכנון וארגון" width=130>
+        </a>
+        <a href="symbols\ahad.png" download>
+            <img src="symbols\ahad.png" alt="  אגף ההדרכה אהד" width=130>
+        </a>
+        <a href="symbols\atan.png" download>
+            <img src="symbols\atan.png" alt="  אגף התנועה אתן אתנ" width=130>
+        </a>
+        <a href="symbols\atan.png" download>
+            <img src="symbols\atan.png" alt="  אגף התנועה אתן אתנ" width=130>
+        </a>
+        <a href="symbols\bikoret.jpg" download>
+            <img src="symbols\bikoret.jpg" alt=" היחידה לביקורת ופקודות המשטרה" width=130>
+        </a>
+        <a href="symbols\hakirot-hativa.jpeg" download>
+            <img src="symbols\hakirot-hativa.jpeg" alt=" חטיבת החקירות" width=130>
+        </a>
+        <a href="symbols\lahav-433.png" download>
+            <img src="symbols\lahav-433.png" alt=" להב 433" width=130>
+        </a>
+        <a href="symbols\mafcal.png" download>
+            <img src="symbols\mafcal.png" alt="יחידת המפקח הכללי המפכל" width=130>
+        </a>
+        <a href="symbols\magav.png" download>
+            <img src="symbols\magav.png" alt="מגב משמר הגבול" width=130>
+        </a>
+        <a href="symbols\michlala.png" download>
+            <img src="symbols\michlala.png" alt="המכללה הלאומית לשוטרים" width=130>
+        </a>
+        <a href="symbols\michlala2.png" download>
+            <img src="symbols\michlala2.png" alt="המכללה הלאומית לשוטרים" width=130>
+        </a>
+        <a href="symbols\michlala2.png" download>
+            <img src="symbols\michlala2.png" alt="המכללה הלאומית לשוטרים" width=130>
+        </a>
+        <a href="symbols\police-blue.gif" download>
+            <img src="symbols\police-blue.gif" alt="משטרת ישראל כחול" width=130>
+        </a>
+        <a href="symbols\samafcal.jpg" download>
+            <img src="symbols\samafcal.jpg" alt="סגן המפקח הכללי סמפכל" width=130>
+        </a>
+        <a href="symbols\tohad.png" download>
+            <img src="symbols\tohad.png" alt="מחלקת תוהד תורת הדרכה" width=130>
+        </a>
+        <a href="symbols\led-blue.png" download>
+            <img src="symbols\led-blue.png" alt="מדור למידה דיגיטלית כחול לד" width=130>
+        </a>
+        <a href="symbols\led-white.png" download>
+            <img src="symbols\led-white.png" alt="מדור למידה דיגיטלית לבן לד" width=130>
+        </a>
+    </div>
+</body>
+
+</html>
+
+<script>
+    // SearchBar event:
+    $("#myinput").keyup(function() {
+        // Text value of SearchBar
+        var val = $.trim(this.value);
+        if (val === "")
+            $('img').show();
+        else {
+            $('img').hide();
+            $("img[alt*=" + val + "]").show();
+        }
+    });
+</script>
