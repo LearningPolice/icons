@@ -1,0 +1,12 @@
+ h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+ }
+ 
+ input {
+     margin-right: 30%;
+     width: 40%;
+     height: 7%;
+     border-radius: 4px;
+     font-size: 18px;
+ }
