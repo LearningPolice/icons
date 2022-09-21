@@ -17,3 +17,5 @@ body {
     /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, rgb(145, 9, 9), rgb(252, 252, 104));
 }
+
+h2 {}
