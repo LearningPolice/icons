@@ -1,27 +1,7 @@
-<<<<<<< HEAD
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: white;
-}
-
-input {
-    margin-right: 30%;
-    width: 40%;
-    height: 7%;
-    border-radius: 4px;
-    font-size: 18px;
-}
-
-body {
-    background-color: rgb(143, 6, 6);
-    /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, rgb(145, 9, 9), rgb(252, 252, 104));
-}
-=======
  h1 {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      text-align: center;
+     color: white;
  }
  
  input {
@@ -31,4 +11,9 @@ body {
      border-radius: 4px;
      font-size: 18px;
  }
->>>>>>> be5667aa7acef7feabcda45938030f68b0f3bb33
+ 
+ body {
+     background-color: rgb(143, 6, 6);
+     /* For browsers that do not support gradients */
+     background-image: linear-gradient(to right, rgb(145, 9, 9), rgb(252, 252, 104));
+ }
